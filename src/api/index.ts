@@ -1,7 +1,5 @@
-import Auth from "./modules/Auth";
-import Users from "./modules/Users";
+import Resume from "./modules/Resume";
 
 export default {
-  auth: () => new Auth(),
-  users: () => new Users(),
+  resume: () => new Resume(),
 };

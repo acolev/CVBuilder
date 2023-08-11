@@ -1,10 +1,5 @@
 export default [
   {
-    path: "/",
-    name: 'Home',
-    component: () => import("../index.vue"),
-    meta: {
-
-    }
+    redirect: {name: 'Resumes'}
   },
 ];

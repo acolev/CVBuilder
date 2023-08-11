@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import { nextFactory } from "./utils";
 
+
 const routes: Array<RouteRecordRaw> = [];
 const requireRoute = import.meta.glob("@/pages/**/router/**/index.ts", { eager: true})
 
